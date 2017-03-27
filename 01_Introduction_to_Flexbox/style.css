@@ -29,6 +29,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+/* Flex container */
 .container {
   display:flex;
   border:10px solid goldenrod;
@@ -39,9 +40,30 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /*    main axis is from right to <-- left */
 /*    flex-direction: row-reverse;*/
     
-/*    main axis is from top to bottom */
+/*    cross axis is from top to bottom */
 /*    flex-direction: column;*/
     
-/*    main axis is from bottom to top */
-    flex-direction: column-reverse;
+/*    cross axis is from bottom to top */
+/*    flex-direction: column-reverse;*/
+    
+/*    defaoult */
+/*    flex-wrap: nowrap;*/
+
+/*    gives all items width 300px as set below */
+    flex-wrap: wrap;
+    
+/*    cross axis is now from bottom to top */
+/*    flex-wrap: wrap-reverse;*/
+    
+    
+    
+    
+    
+}
+
+/* flex item */
+.box {
+/*    width: 300px;*/
+    width: calc(33.3333333% - 20px);
+    margin: 10px; /*margin breaks our 33.333% width so we can add calc */
 }
