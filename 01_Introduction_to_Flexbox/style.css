@@ -32,5 +32,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid goldenrod;
-  height:100vh;
+  min-height:100vh;
+/*    main axis is from left to --> right */
+/*    flex-direction: row;*/
+    
+/*    main axis is from right to <-- left */
+/*    flex-direction: row-reverse;*/
+    
+/*    main axis is from top to bottom */
+/*    flex-direction: column;*/
+    
+/*    main axis is from bottom to top */
+    flex-direction: column-reverse;
 }
