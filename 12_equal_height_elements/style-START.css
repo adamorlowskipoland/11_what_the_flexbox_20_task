@@ -37,7 +37,7 @@ a {
 .elements{
     display: flex;
     flex-wrap: wrap;
-/*    justify-content: center;*/
+/*    justify-content: center;*/ /* change .item flex to 0 1 calt... if you want to see changes justify-content makes */
 }
 
 .item {
