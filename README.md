@@ -1,4 +1,4 @@
-# 11_what_the_flexbox_20_task
+# 11_what_the_flexbox
 20 tasks to learn and practice flexbox
 
 
