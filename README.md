@@ -1,5 +1,5 @@
 # 11_what_the_flexbox
-20 tasks to learn and practice flexbox
+Couple of tasks to learn and practice flexbox
 
 
 tip:  
